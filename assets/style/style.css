@@ -65,7 +65,7 @@
 }
 
 .main {
-    background-image: url(/assets/img/eacamp-background.jpg);
+    background-image: url(../img/eacamp-background.jpg);
     height: 450px;
     background-position: center 35%;
     background-size: cover;
