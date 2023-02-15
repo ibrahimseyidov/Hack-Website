@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.header {
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 860px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eacamp-logo {
+    width: 64px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    padding: 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.nav li a:hover {
+    color: #0382c4;
+}
+
+.allow-btn {
+    background-color: #F0493D;
+    border: none;
+    width: 140px;
+    padding: 14px 0;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.allow-btn:hover {
+    background-color: #A1D64E;
+}
+
+.call-us {
+    width: 140px;
+}
+
+.main {
+    background-image: url(/assets/img/eacamp-background.jpg);
+    height: 450px;
+    background-position: center 35%;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+}
+
+.demand-programmer {
+    background-color: #1A7FB4;
+    box-shadow: 0px 0px 10px rgb(248 97 97 / 30%);
+    width: 80%;
+    opacity: 0.8;
+    margin: 0 auto;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.demand-programmer h2 {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0 15px 0;
+}
+
+.demand-programmer p {
+    color: #ffff;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "Roboto";
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
